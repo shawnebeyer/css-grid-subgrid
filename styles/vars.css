@@ -1,0 +1,48 @@
+:root {
+  /* Primary Action Red: For bold headlines, buttons, and call-to-actions. */
+  --color-primary-red: #e43f5a; /* A strong, energetic red */
+
+  /* Secondary Hero Blue: For contrasting elements, backgrounds, or important sections. */
+  --color-secondary-blue: #2a9d8f; /* A vibrant teal-ish blue */
+
+  /* Accent Zap Yellow: For highlights, small interactive elements, or a "pop" of color. */
+  --color-accent-yellow: #f7c513; /* A bright, sunny yellow */
+
+  /* Dark Inkwell Black: For primary text, deep backgrounds, and strong borders. */
+  --color-dark-ink: #262134; /* A deep, slightly desaturated black with character */
+
+  /* Light Panel White: For backgrounds, text that needs to stand out against dark, or content areas. */
+  --color-light-panel: #f7f7f7; /* A soft, clean off-white */
+
+  --color-white: #ffffff; /* Pure white for contrast and clarity */
+
+  /* --- Subtle Background Card Colors --- */
+
+  /* Light Red Tint (from --color-primary-red) */
+  --color-card-red-tint: #ffe4e9; /* Very light, almost pastel pink/red */
+
+  /* Light Blue Tint (from --color-secondary-blue) */
+  --color-card-blue-tint: #e0f2f1; /* A very soft, calm minty blue */
+
+  /* Light Yellow Tint (from --color-accent-yellow) */
+  --color-card-yellow-tint: #fff9e6; /* A creamy, barely-there yellow */
+
+  /* Slightly Darker Light Panel (for contrast on very light backgrounds) */
+  --color-card-subtle-gray: #f0f0f0; /* A very light, neutral gray */
+
+  /* Very Light Dark Ink (for super subtle dark tone) */
+  --color-card-ink-tint: #e4e3e6; /* A whisper of the dark ink */
+
+  --fs-reg: 1rem;
+  --fs-md: 1.5rem;
+  --fs-lg: 2rem;
+  --fs-xl: 3rem;
+
+  @media (width > 960px) {
+    --fs-reg: 1rem;
+    --fs-md: 2rem;
+    --fs-lg: 3rem;
+    --fs-xl: 4rem;
+  }
+  --gap: 1rem;
+}
